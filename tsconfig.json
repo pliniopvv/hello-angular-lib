@@ -2,6 +2,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@pvv/hello-lib": [
+        "dist/pvv/hello-lib/pvv-hello-lib",
+        "dist/pvv/hello-lib"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
