@@ -25,3 +25,20 @@ npm login
 
 npm publish --access public
 ```
+
+
+## BugFix
+Erro:
+```error
+npm ERR! code E426
+npm ERR! 426 Upgrade Required - PUT http://registry.npmjs.org/formats_date
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Administrator\AppData\Local\npm-cache\_logs\2021-11-25T06_55_02_155Z-debug.log
+error Command failed with exit code 1.
+```
+Digite:
+```powershell
+npm config set registry=https://registry.npmjs.org
+# fonte: https://debugah.com/npm-contracting-error-e426-22730/
+```
